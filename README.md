@@ -97,7 +97,7 @@ systemctl restart telegraf
 # Configure Grafana
 
  ```
-# don't forget to change your password
+# Don't forget to change your password
 grafana-cli admin reset-admin-password youpassword
 
 ```
