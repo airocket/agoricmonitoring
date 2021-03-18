@@ -86,6 +86,7 @@ cd ~
 git clone https://github.com/airocket/agoricmonitoring/
 cd agoricmonitoring
 chmod +x monitor.sh
+sed -i -e 's/\r$//' monitor.sh
 sudo rm -rf /etc/telegraf/telegraf.conf
 
 # if you changed the password for Influxdb then change it in the config file telegraf.conf
